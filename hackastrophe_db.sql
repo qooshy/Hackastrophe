@@ -119,7 +119,7 @@ CREATE TABLE `Invoice` (
 CREATE TABLE `InvoiceItem` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `invoice_id` int(11) NOT NULL,
-  `challenge_id` int(11) NOT NULL,
+  `challenge_id` int(11) NULL,
   `challenge_title` varchar(100) NOT NULL,
   `price` decimal(10,2) NOT NULL,
   `quantity` int(11) NOT NULL DEFAULT 1,

@@ -24,7 +24,7 @@ ini_set('display_errors', '1');
 date_default_timezone_set('Europe/Paris');
 
 // URL de base de l'application
-define('BASE_URL', '/hackastrophe');
+define('BASE_URL', '/Hackastrophe');
 
 // Chemins absolus
 define('ROOT_PATH', dirname(__DIR__));
